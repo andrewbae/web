@@ -1,10 +1,12 @@
 @import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
 * { font-family: 'Spoqa Han Sans Neo', 'sans-serif'; }
 
-body{
-
+a {
+    text-decoration:none !important;
 }
-
+p {
+    line-height: 1.6;
+}
 .gradient-bg {
     color: white;
     height: 150px;
@@ -14,10 +16,12 @@ body{
     background: linear-gradient(to right, #1D2671, #C33764); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .gradient-bg h2 {
+    font-size: 25px;
     font-weight: 300;
 }
 
 section h2 {
+    font-size: 25px;
     font-weight: 400;
 }
 section hr {
