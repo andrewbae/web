@@ -5,8 +5,11 @@ a {
     text-decoration:none !important;
 }
 p {
-    line-height: 1.6;
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 8px !important;
 }
+
 .gradient-bg {
     color: white;
     height: 150px;
@@ -16,12 +19,12 @@ p {
     background: linear-gradient(to right, #1D2671, #C33764); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .gradient-bg h2 {
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 300;
 }
 
 section h2 {
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 400;
 }
 section hr {
@@ -41,6 +44,16 @@ ul li::before {
     margin-left: -1em; 
 }
 
+li{
+    font-weight: 500;
+}
+li a{
+    font-weight: 600;
+}
+dl {
+    font-size: 15px;
+}
+
 .container{
     padding: 40px 100px 0 100px !important;
     margin: 0 auto !important;
@@ -48,7 +61,7 @@ ul li::before {
 }
 
 section {
-    padding: 20px 0 0 0; 
+    padding: 17px 0 0 0; 
 }
 
 @media only screen and (max-width: 750px){
